@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{270198da-5ee3-49c6-8dd1-2f99689ad0ea}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\crl.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\internal.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\keys.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\ocsp.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\ssl.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\tls.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\tls13.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\src\wolfio.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\user_settings.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\aes.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\arc4.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\asn.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\blake2b.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\blake2s.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\camellia.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\chacha.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\chacha20_poly1305.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\coding.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\des3.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\dh.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\dsa.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\ecc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\error.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\fe_low_mem.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\fe_operations.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\ge_low_mem.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\ge_operations.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\hash.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\hc128.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\hmac.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\integer.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\logging.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\md2.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\md4.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\md5.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\memory.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\pkcs12.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\pkcs7.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\poly1305.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\pwdbased.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\rabbit.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\random.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\ripemd.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\rsa.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\sha.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\sha256.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\sha512.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\signature.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\sp_c32.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\sp_c64.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\sp_int.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\sp_x86_64.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\tfm.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\wc_encrypt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\wc_pkcs11.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\wc_port.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\wolfevent.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\wolfmath.c" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)src\bio.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\asm.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\evp.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\misc.c">
+      <FileType>CppCode</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\wolfSSL\makefile" />
+    <None Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfcrypt\src\aes_asm.asm" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fe_x25519_128.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mont_small.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_12.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_17.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_20.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_24.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_28.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_3.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_32.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_4.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_48.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_6.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_64.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_7.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_8.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_9.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_mul_comba_small_set.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_12.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_17.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_20.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_24.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_28.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_3.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_32.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_4.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_48.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_6.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_64.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_7.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_8.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_9.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfcrypt\src\fp_sqr_comba_small_set.i">
+      <FileType>Document</FileType>
+    </ClInclude>
+    <None Include="$(MSBuildThisFileDirectory)wolfSSL_Linux.vcxproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\user_settings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\callbacks.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\certs_test.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\crl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\error-ssl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\ocsp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\aes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\asn1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\bio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\bn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\buffer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\conf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\crypto.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\des.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\dh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\dsa.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ec.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ec25519.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ecdh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ecdsa.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ed25519.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\engine.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\err.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\evp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\hmac.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\lhash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\md4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\md5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\objects.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ocsp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\opensslconf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\opensslv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ossl_typ.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\pem.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\pkcs12.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\pkcs7.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\rand.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\rc4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ripemd.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\rsa.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\sha.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ssl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ssl23.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\stack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\ui.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\x509.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\x509v3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\openssl\x509_vfy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\ssl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\test.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\version.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\aes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\arc4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\asn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\asn_public.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\blake2-impl.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\blake2-int.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\blake2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\camellia.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\chacha.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\chacha20_poly1305.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\cmac.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\coding.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\compress.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\cpuid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\cryptocb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\curve25519.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\des3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\dh.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\dsa.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\ecc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\ed25519.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\error-crypt.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\fe_operations.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\fips_test.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\ge_operations.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\hash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\hc128.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\hmac.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\idea.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\integer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\logging.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\md2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\md4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\md5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\memory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\mem_track.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\misc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\mpi_class.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\mpi_superclass.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\pkcs11.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\pkcs12.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\pkcs7.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\poly1305.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\pwdbased.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\rabbit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\random.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\ripemd.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\rsa.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\selftest.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\settings.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\sha.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\sha256.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\sha3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\sha512.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\signature.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\sp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\sp_int.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\srp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\tfm.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\types.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\visibility.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\wc_encrypt.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\wc_pkcs11.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\wc_port.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\wolfevent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfcrypt\wolfmath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\wolfSSL\wolfssl\wolfio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)wolfssl\openssl\tls1.h" />
+  </ItemGroup>
+</Project>

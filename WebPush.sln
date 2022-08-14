@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebPushClient", "WebPushClient\WebPushClient.vcxitems", "{A90BEA4D-FE6E-4475-9C50-CB0BE3148AFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebPushClient_Windows", "WebPushClient_Windows\WebPushClient_Windows.vcxproj", "{504D487F-11F7-40E0-8B83-BFE1EE256836}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WebPushClient_UnitTest", "WebPushClient_UnitTest\WebPushClient_UnitTest.vcxproj", "{82ACDC74-DFD0-42FB-B89D-C372102D7C53}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wolfSSL_Windows", "wolfSSL\wolfSSL_Windows.vcxproj", "{845513A1-8CD3-4E96-BCC9-8D932713431B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wolfSSL", "wolfSSL\wolfSSL.vcxitems", "{270198DA-5EE3-49C6-8DD1-2F99689AD0EA}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		wolfSSL\wolfSSL.vcxitems*{270198da-5ee3-49c6-8dd1-2f99689ad0ea}*SharedItemsImports = 9
+		WebPushClient\WebPushClient.vcxitems*{504d487f-11f7-40e0-8b83-bfe1ee256836}*SharedItemsImports = 4
+		WebPushClient\WebPushClient.vcxitems*{82acdc74-dfd0-42fb-b89d-c372102d7c53}*SharedItemsImports = 4
+		wolfSSL\wolfSSL.vcxitems*{845513a1-8cd3-4e96-bcc9-8d932713431b}*SharedItemsImports = 4
+		WebPushClient\WebPushClient.vcxitems*{a90bea4d-fe6e-4475-9c50-cb0be3148afa}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Debug|x64.ActiveCfg = Debug|x64
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Debug|x64.Build.0 = Debug|x64
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Debug|x86.ActiveCfg = Debug|Win32
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Debug|x86.Build.0 = Debug|Win32
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Release|x64.ActiveCfg = Release|x64
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Release|x64.Build.0 = Release|x64
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Release|x86.ActiveCfg = Release|Win32
+		{504D487F-11F7-40E0-8B83-BFE1EE256836}.Release|x86.Build.0 = Release|Win32
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Debug|x64.ActiveCfg = Debug|x64
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Debug|x64.Build.0 = Debug|x64
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Debug|x86.ActiveCfg = Debug|Win32
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Debug|x86.Build.0 = Debug|Win32
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Release|x64.ActiveCfg = Release|x64
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Release|x64.Build.0 = Release|x64
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Release|x86.ActiveCfg = Release|Win32
+		{82ACDC74-DFD0-42FB-B89D-C372102D7C53}.Release|x86.Build.0 = Release|Win32
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Debug|x64.ActiveCfg = Debug|x64
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Debug|x64.Build.0 = Debug|x64
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Debug|x86.ActiveCfg = Debug|Win32
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Debug|x86.Build.0 = Debug|Win32
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Release|x64.ActiveCfg = Release|x64
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Release|x64.Build.0 = Release|x64
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Release|x86.ActiveCfg = Release|Win32
+		{845513A1-8CD3-4E96-BCC9-8D932713431B}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82FDAD03-CD72-41D2-9941-AD4F33A4D833}
+	EndGlobalSection
+EndGlobal

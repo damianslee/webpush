@@ -1,0 +1,83 @@
+# Keep everything in packages sub folder
+!/packages/
+!/packages/**/*.dll
+!/packages/**/*.pdb
+
+
+# Keep everything in ecos sub folder
+!/ecos/**/*.d
+!/ecos/**/*.o
+!/ecos/**/*.a
+!/ecos/**/*.ld
+
+
+# Exclude EMM ROMFS built files
+FusionEMM_ROMFS/ziprom/
+FusionEMM_ROMFS/ASPCentral.cpp
+FusionEMM_ROMFS/ASPCentral.inc
+FusionEMM_ROMFS/ASPCentral.h
+FusionEMM_ROMFS/emmromfs.bin
+FusionEMM_ROMFS/emmromfs.c
+
+# Exclude EMM built files
+central/central.bin
+central/central.map
+central/central.gz
+central/hardware.db
+central/central.db
+
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.sbr
+*.pdb
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+*.recipe
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Visual Studio
+.vs/
+*.suo
+Browse.VC.*
+*.ipch
+*.user
+*.log
+*.tlog
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.bsc
+*.ilk
+*.res
+*.idb
+*.cache
+
+
+vssver.scc
